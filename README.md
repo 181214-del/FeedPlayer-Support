@@ -5,7 +5,7 @@ Public privacy, support and third-party materials for FeedPlayer.
 - [Privacy policy / 隐私政策](https://181214-del.github.io/FeedPlayer-Support/privacy-policy.html)
 - [Terms of use / 使用条款](https://181214-del.github.io/FeedPlayer-Support/terms-of-use.html)
 - [Third-party notices / 第三方许可](https://181214-del.github.io/FeedPlayer-Support/third-party-notices.html)
-- [Sources and relinking / 源码与重链接](https://181214-del.github.io/FeedPlayer-Support/source-offer.html)
+- [Sources and library replacement / 开源源码与替换说明](https://181214-del.github.io/FeedPlayer-Support/source-offer.html)
 - [Support / 支持](https://181214-del.github.io/FeedPlayer-Support/support.html)
 - [Source packages and checksums](https://github.com/181214-del/FeedPlayer-Support/releases)
 
