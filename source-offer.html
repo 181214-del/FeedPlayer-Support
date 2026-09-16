@@ -14,19 +14,16 @@
 <p>AMSMB2 的 Swift 源文件为 MIT 许可；与 libsmb2 组成的库按 LGPL 2.1 分发。VLCKit / libVLC 为 LGPL 2.1 或后续版本。MobileVLCKit 内的另一份 libsmb2 使用 VLC 自己的版本，源码也随包提供。</p>
 <h2>下载源码 / Download sources</h2>
 <ul>
-<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/feedplayer-third-party-sources-2026-09-16.tar">完整库源码、依赖、上游补丁及原始许可 / Complete library sources, dependencies, upstream patches and notices</a>（约 / about 193 MiB） · <a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/feedplayer-third-party-sources-2026-09-16.tar.sha256">SHA-256</a></li>
-<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/source-rebuild-validation-2026-09-16.tar.gz">必需的构建说明更正与兼容补丁 / Required build-recipe correction and compatibility patch</a></li>
+<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/feedplayer-third-party-sources-2026-09-16.tar">库源码、依赖与许可证 / Library sources, dependencies and licenses</a></li>
+<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/source-rebuild-validation-2026-09-16.tar.gz">构建说明与兼容补丁 / Build instructions and compatibility patch</a></li>
 <li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/library-replacement-tools-2026-09-16.tar.gz">动态库替换工具与操作说明 / Dynamic-library replacement tools and instructions</a></li>
-<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/tag/third-party-sources-2026-09-16">全部材料、校验清单与验证记录 / All materials, checksums and validation records</a></li>
+<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/tag/third-party-sources-2026-09-16">全部开源材料 / All open-source materials</a></li>
 </ul>
-<p>源码包包含 AMSMB2 的实际 libsmb2 子模块文件、VLCKit / VLC 完整源码，以及 46 份经上游 SHA-512 核对的 VLC contrib 源码归档。请同时下载构建补充包：它和 Release 中最新的 SOURCE_DISTRIBUTION.md 取代原始包内旧版补丁命令，使用 <code>git apply</code> 保留文件重命名。上游源码原归档及其校验值未变；我们补充的构建脚本修改单独标注日期、范围与许可。</p>
-<p>The source archive includes the actual AMSMB2 libsmb2 submodule, complete VLCKit/VLC sources and 46 upstream-checksum-verified contrib archives. Download the build supplement as well: it and the latest SOURCE_DISTRIBUTION.md replace the original archive’s old patch command with <code>git apply</code> to preserve renames. Original upstream archives and hashes are unchanged. Our supplemental build-script changes identify their date, scope and license separately.</p>
+<p>源码包包含上述库及其依赖。请同时下载构建补充包，并使用其中更新后的构建说明和兼容补丁。</p>
+<p>The source archive includes the libraries above and their dependencies. Also download the build supplement and use its updated instructions and compatibility patch.</p>
 <h2>修改与替换 / Modification and replacement</h2>
 <p>在 LGPL 适用范围内，你可以为个人使用修改包含这些库的作品，并为调试修改进行逆向工程。FeedPlayer 通过独立的 <code>AMSMB2.framework</code> 和 <code>MobileVLCKit.framework</code> 动态加载这两个库；可用平台、架构及接口兼容的修改版本替换它们。</p>
-<p>替换工具在新的输出目录操作应用副本，保留原安装。iPhone 安装需要使用你自己的 Apple 开发签名及适用描述文件；工具不包含开发者的签名材料。App Store 下载件可能受加密限制；如需对应应用版本的未加密、可用于库替换的副本，或发现材料缺失，请联系 <a href="mailto:xie181214@gmail.com">xie181214@gmail.com</a>，注明应用版本与构建号。设置 → 关于可查看这两项信息。</p>
-<p>To the extent the LGPL applies, you may modify the work for your own use and reverse engineer it to debug those modifications. FeedPlayer loads separate AMSMB2 and MobileVLCKit dynamic frameworks; compatible modified frameworks may replace them. The tool works on a new copy. Device installation requires your own Apple development signing identity and a suitable provisioning profile. Store downloads may be encrypted; contact us with the app version and build number for a corresponding unencrypted copy usable for library replacement, or for missing materials. Version and build are shown in Settings → About.</p>
-<details><summary>技术验证范围 / Technical validation scope</summary>
-<p>已完成完整 arm64 模拟器框架源码重建，新 MobileVLCKit 与官方 device / simulator 框架的 242 个 VLC 插件入口一致；完整过程及兼容补丁随构建补充包提供。符号、插件和运行版本用于核对源码覆盖；官方未提供最终 link map，因此不将候选清单称为逐对象确认的二进制 SBOM。</p>
-<p>替换工具包提供当前应用构建的校验清单和独立 iPhone 动态库替换验证记录。较早的 Relink / SourceRebuild 报告对应其中列出的历史构建。开发签名的运行验证不代表 Apple 已批准某个 App Store 或 TestFlight 版本。</p>
-<p>The arm64 simulator library has been rebuilt from source; all 242 VLC plugin entry names match the official device and simulator frameworks. The supplement contains the recipe, patch and evidence. The replacement tools include build-specific checksums and a separate iPhone replacement report. Earlier Relink / SourceRebuild reports identify their historical builds. Development-signing tests are not approval of a particular App Store or TestFlight release.</p>
-</details></main><footer>FeedPlayer · <a href="mailto:xie181214@gmail.com">xie181214@gmail.com</a></footer></body></html>
+<p>替换及签名安装步骤见上述工具说明。如需对应应用版本的未加密替换副本，或发现材料缺失，请联系 <a href="mailto:xie181214@gmail.com">xie181214@gmail.com</a>。</p>
+<p>To the extent the LGPL applies, you may modify the work for your own use and reverse engineer it to debug those modifications. FeedPlayer loads separate AMSMB2 and MobileVLCKit dynamic frameworks, which may be replaced with platform-, architecture- and interface-compatible modified versions.</p>
+<p>See the tool instructions above for replacement, signing and installation steps. For a corresponding unencrypted application copy usable for library replacement, or for missing materials, contact <a href="mailto:xie181214@gmail.com">xie181214@gmail.com</a>.</p>
+</main><footer>FeedPlayer · <a href="mailto:xie181214@gmail.com">xie181214@gmail.com</a></footer></body></html>
