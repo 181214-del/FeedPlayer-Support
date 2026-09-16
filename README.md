@@ -3,7 +3,6 @@
 Public privacy, support and third-party materials for FeedPlayer.
 
 - [Privacy policy / 隐私政策](https://181214-del.github.io/FeedPlayer-Support/privacy-policy.html)
-- [Terms of use / 使用条款](https://181214-del.github.io/FeedPlayer-Support/terms-of-use.html)
 - [Third-party notices / 第三方许可](https://181214-del.github.io/FeedPlayer-Support/third-party-notices.html)
 - [Sources and library replacement / 开源源码与替换说明](https://181214-del.github.io/FeedPlayer-Support/source-offer.html)
 - [Support / 支持](https://181214-del.github.io/FeedPlayer-Support/support.html)
@@ -11,7 +10,7 @@ Public privacy, support and third-party materials for FeedPlayer.
 
 The original root privacy URL and its `#zh` / `#en` anchors remain available.
 Pages use no analytics scripts, remote fonts or tracking cookies. The same
-policy, terms and notice pages are bundled for offline reading in the app.
+policy and notice pages are bundled for offline reading in the app.
 
 Copyright and licenses for third-party works remain with their respective
 authors. This repository does not relicense the FeedPlayer application or the
