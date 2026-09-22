@@ -1,29 +1,31 @@
 <!doctype html>
-<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><meta name="description" content="AMSMB2 and MobileVLCKit licenses, source archives and replacement instructions"><title>FeedPlayer · Open-source materials</title><style>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><meta name="description" content="AMSMB2 and MobileVLCKit licenses, source archives and replacement instructions"><title>FeedPlayer · Open-source materials</title><style>
 :root{color-scheme:light dark;--bg:#f5f7fa;--fg:#172433;--muted:#536477;--line:#dce3eb;--link:#0567be;--card:#fff}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--link);text-underline-offset:3px;overflow-wrap:anywhere}header,main,footer{max-width:860px;margin:auto;padding:24px}header{border-bottom:1px solid var(--line)}nav{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px}.brand{display:block;font-size:20px;font-weight:700;margin-bottom:14px;text-decoration:none;color:var(--fg)}main{padding-top:40px;padding-bottom:56px}h1{font-size:clamp(28px,6vw,42px);line-height:1.2;margin:0 0 18px;letter-spacing:-.03em}h2{font-size:25px;line-height:1.3;margin:48px 0 24px}h3{font-size:19px;line-height:1.4;margin:32px 0 12px}p,ul{margin:12px 0}.meta,.muted{color:var(--muted);font-size:14px}.summary{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin:24px 0}hr{border:0;border-top:1px solid var(--line);margin:44px 0}footer{border-top:1px solid var(--line);font-size:14px}pre{font:13px/1.65 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;overflow-wrap:anywhere}details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin:14px 0}summary{cursor:pointer;font-weight:600}table{border-collapse:collapse;width:100%;font-size:14px}td,th{text-align:left;vertical-align:top;border-bottom:1px solid var(--line);padding:12px 6px;overflow-wrap:anywhere}code{overflow-wrap:anywhere}section{scroll-margin-top:20px}@media(prefers-color-scheme:dark){:root{--bg:#111820;--fg:#ecf1f7;--muted:#b1bfce;--line:#344251;--link:#89c6ff;--card:#1a2531}}@media(max-width:480px){header,main,footer{padding-left:20px;padding-right:20px}body{font-size:16px}nav{gap:8px 16px}}
-</style></head><body><header><a class="brand" href="index.html">FeedPlayer</a><nav aria-label="隐私、开源材料与支持 / Privacy, open-source materials and support"><a href="privacy-policy.html">隐私政策</a><a href="third-party-notices.html">第三方许可</a><a href="source-offer.html">开源材料</a><a href="support.html">支持</a></nav></header><main><h1>开源源码与替换说明</h1>
+</style></head><body><header><a class="brand" href="index.html">FeedPlayer</a><nav aria-label="Privacy, open-source materials and support"><a href="privacy-policy.html">Privacy policy</a><a href="third-party-notices.html">Third-party notices</a><a href="source-offer.html">Open-source materials</a><a href="support.html">Support</a></nav></header><main><h1>Open-source materials and library replacement</h1>
+<p lang="zh-Hans">开源源码与替换说明</p>
 <p class="meta">Open-source libraries, sources and replacement · 2026-09-16</p>
-<p>FeedPlayer 使用 AMSMB2 和 MobileVLCKit 提供 SMB 访问和媒体播放。这些库及其使用受 LGPL 约束；库内其他组件分别保留自己的许可证。完整版权和许可可在<a href="third-party-notices.html">第三方声明</a>中离线阅读。</p>
 <p>FeedPlayer uses AMSMB2 and MobileVLCKit for SMB access and media playback. These libraries and their use are covered by the LGPL; their dependencies retain their respective licenses. Complete copyright and license texts are available in the <a href="third-party-notices.html">third-party notices</a>, also bundled for offline reading.</p>
-<h2>对应版本 / Versions</h2>
-<table><thead><tr><th>库 / Library</th><th>对应源码 / Source revision</th></tr></thead><tbody>
+<p lang="zh-Hans">FeedPlayer 使用 AMSMB2 和 MobileVLCKit 提供 SMB 访问和媒体播放。这些库及其使用受 LGPL 约束；库内其他组件分别保留自己的许可证。完整版权和许可可在<a href="third-party-notices.html">第三方声明</a>中离线阅读。</p>
+<h2>Versions / <span lang="zh-Hans">对应版本</span></h2>
+<table><thead><tr><th>Library / <span lang="zh-Hans">库</span></th><th>Source revision / <span lang="zh-Hans">对应源码</span></th></tr></thead><tbody>
 <tr><td>AMSMB2 4.0.3</td><td>1726aaaf7adf63d7d1d2a0c5d1b0e635028215c0<br>libsmb2: aff9fa6ba9f41cfd3c15d184554601ec3f6d8d03</td></tr>
-<tr><td>MobileVLCKit 3.7.3</td><td>VLCKit: 319ed2c0<br>VLC: 79128878ddb2c280bbb6c89c76a46b31a80ade1c，及 VLCKit 的 47 个上游补丁 / plus 47 upstream VLCKit patches</td></tr>
+<tr><td>MobileVLCKit 3.7.3</td><td>VLCKit: 319ed2c0<br>VLC: 79128878ddb2c280bbb6c89c76a46b31a80ade1c, plus 47 upstream VLCKit patches / <span lang="zh-Hans">及 VLCKit 的 47 个上游补丁</span></td></tr>
 </tbody></table>
-<p>AMSMB2 的 Swift 源文件为 MIT 许可；与 libsmb2 组成的库按 LGPL 2.1 分发。VLCKit / libVLC 为 LGPL 2.1 或后续版本。MobileVLCKit 内的另一份 libsmb2 使用 VLC 自己的版本，源码也随包提供。</p>
-<h2>下载源码 / Download sources</h2>
+<p>AMSMB2's Swift source files are MIT-licensed; the library combined with libsmb2 is distributed under LGPL 2.1. VLCKit / libVLC is licensed under LGPL 2.1 or later. The separate copy of libsmb2 inside MobileVLCKit uses VLC's own version, and its source is also included in the archive.</p>
+<p lang="zh-Hans">AMSMB2 的 Swift 源文件为 MIT 许可；与 libsmb2 组成的库按 LGPL 2.1 分发。VLCKit / libVLC 为 LGPL 2.1 或后续版本。MobileVLCKit 内的另一份 libsmb2 使用 VLC 自己的版本，源码也随包提供。</p>
+<h2>Download sources / <span lang="zh-Hans">下载源码</span></h2>
 <ul>
-<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/feedplayer-third-party-sources-2026-09-16.tar">库源码、依赖与许可证 / Library sources, dependencies and licenses</a></li>
-<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/source-rebuild-validation-2026-09-16.tar.gz">构建说明与兼容补丁 / Build instructions and compatibility patch</a></li>
-<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/library-replacement-tools-2026-09-16.tar.gz">动态库替换工具与操作说明 / Dynamic-library replacement tools and instructions</a></li>
-<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/tag/third-party-sources-2026-09-16">全部开源材料 / All open-source materials</a></li>
+<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/feedplayer-third-party-sources-2026-09-16.tar">Library sources, dependencies and licenses / <span lang="zh-Hans">库源码、依赖与许可证</span></a></li>
+<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/source-rebuild-validation-2026-09-16.tar.gz">Build instructions and compatibility patch / <span lang="zh-Hans">构建说明与兼容补丁</span></a></li>
+<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/download/third-party-sources-2026-09-16/library-replacement-tools-2026-09-16.tar.gz">Dynamic-library replacement tools and instructions / <span lang="zh-Hans">动态库替换工具与操作说明</span></a></li>
+<li><a href="https://github.com/181214-del/FeedPlayer-Support/releases/tag/third-party-sources-2026-09-16">All open-source materials / <span lang="zh-Hans">全部开源材料</span></a></li>
 </ul>
-<p>源码包包含上述库及其依赖。请同时下载构建补充包，并使用其中更新后的构建说明和兼容补丁。</p>
 <p>The source archive includes the libraries above and their dependencies. Also download the build supplement and use its updated instructions and compatibility patch.</p>
-<h2>修改与替换 / Modification and replacement</h2>
-<p>在 LGPL 适用范围内，你可以为个人使用修改包含这些库的作品，并为调试修改进行逆向工程。FeedPlayer 通过独立的 <code>AMSMB2.framework</code> 和 <code>MobileVLCKit.framework</code> 动态加载这两个库；可用平台、架构及接口兼容的修改版本替换它们。</p>
-<p>替换及签名安装步骤见上述工具说明。如需对应应用版本的未加密替换副本，或发现材料缺失，请联系 <a href="mailto:xie181214@gmail.com">xie181214@gmail.com</a>。</p>
-<p>To the extent the LGPL applies, you may modify the work for your own use and reverse engineer it to debug those modifications. FeedPlayer loads separate AMSMB2 and MobileVLCKit dynamic frameworks, which may be replaced with platform-, architecture- and interface-compatible modified versions.</p>
+<p lang="zh-Hans">源码包包含上述库及其依赖。请同时下载构建补充包，并使用其中更新后的构建说明和兼容补丁。</p>
+<h2>Modification and replacement / <span lang="zh-Hans">修改与替换</span></h2>
+<p>To the extent the LGPL applies, you may modify the work for your own use and reverse engineer it to debug those modifications. FeedPlayer loads these libraries through separate <code>AMSMB2.framework</code> and <code>MobileVLCKit.framework</code> dynamic frameworks, which may be replaced with platform-, architecture- and interface-compatible modified versions.</p>
 <p>See the tool instructions above for replacement, signing and installation steps. For a corresponding unencrypted application copy usable for library replacement, or for missing materials, contact <a href="mailto:xie181214@gmail.com">xie181214@gmail.com</a>.</p>
+<p lang="zh-Hans">在 LGPL 适用范围内，你可以为个人使用修改包含这些库的作品，并为调试修改进行逆向工程。FeedPlayer 通过独立的 <code>AMSMB2.framework</code> 和 <code>MobileVLCKit.framework</code> 动态加载这两个库；可用平台、架构及接口兼容的修改版本替换它们。</p>
+<p lang="zh-Hans">替换及签名安装步骤见上述工具说明。如需对应应用版本的未加密替换副本，或发现材料缺失，请联系 <a href="mailto:xie181214@gmail.com">xie181214@gmail.com</a>。</p>
 </main><footer>FeedPlayer · <a href="mailto:xie181214@gmail.com">xie181214@gmail.com</a></footer></body></html>

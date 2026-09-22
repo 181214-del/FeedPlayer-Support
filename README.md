@@ -9,6 +9,9 @@ Published support, privacy policy, third-party notices and source downloads for 
 - [Open-source materials / 开源材料](https://github.com/181214-del/FeedPlayer-Support/releases)
 
 The original root privacy URL and its `#zh` / `#en` anchors remain available.
+English is the primary page language and appears first; Chinese translations
+remain available. The privacy policy and support page keep separate English
+and Chinese sections. Third-party license texts retain their original wording.
 Pages use no analytics scripts, remote fonts or tracking cookies. The same
 support, policy and notice pages are bundled for offline reading in the app.
 
