@@ -36,8 +36,7 @@ a { color: #0665c5; text-underline-offset: 0.18em; }
   background: rgba(247, 250, 253, 0.84);
   backdrop-filter: blur(18px);
 }
-.brand { display: flex; align-items: center; gap: 10px; color: var(--text); font-weight: 750; text-decoration: none; }
-.brand-mark { display: grid; width: 31px; height: 31px; place-items: center; border-radius: 9px; color: white; background: linear-gradient(145deg, #52b9ff, var(--accent)); font-size: 0.7rem; box-shadow: 0 8px 18px rgba(8, 121, 232, 0.22); }
+.brand { color: var(--text); font-weight: 750; text-decoration: none; }
 nav { display: flex; gap: 6px; }
 nav a { padding: 5px 10px; border-radius: 999px; color: var(--muted); font-size: 0.82rem; font-weight: 650; text-decoration: none; }
 nav a:hover { color: var(--accent); background: var(--accent-soft); }
