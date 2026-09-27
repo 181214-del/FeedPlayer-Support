@@ -12,8 +12,8 @@ The original root privacy URL and its `#zh` / `#en` anchors remain available.
 English is the primary page language and appears first; Chinese translations
 remain available. The privacy policy and support page keep separate English
 and Chinese sections. Third-party license texts retain their original wording.
-Pages use no analytics scripts, remote fonts or tracking cookies. The same
-support, policy and notice pages are bundled for offline reading in the app.
+Pages use no analytics scripts, remote fonts or tracking cookies. The app's
+About page opens these online documents in the system browser.
 
 Copyright and licenses for third-party works remain with their respective
 authors. This repository does not relicense the FeedPlayer application or the
